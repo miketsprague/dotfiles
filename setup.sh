@@ -10,16 +10,16 @@ fi
 sudo apt-get update
 sudo apt-get install -y zsh-autosuggestions zsh-syntax-highlighting
 
-# Source the .zshrc file
+# Link the .zshrc file
 if [ -f "$HOME/.dotfiles/.zshrc" ]; then
-  echo "Sourcing .zshrc..."
-  source $HOME/.dotfiles/.zshrc
+  echo "Linking .zshrc..."
+  ln -sf $HOME/.dotfiles/.zshrc $HOME/.zshrr
 fi
 
 # Set zsh as the default shell
 if [ "$SHELL" != "/bin/zsh" ]; then
   echo "Setting zsh as the default shell..."
-  chsh -s /bin/zsh
+  sudo -i chsh -s /bin/zsh
 fi
 
 # Print success message
