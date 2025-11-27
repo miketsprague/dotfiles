@@ -13,7 +13,7 @@ sudo apt-get install -y zsh-autosuggestions zsh-syntax-highlighting
 # Link the .zshrc file
 if [ -f "$HOME/.dotfiles/.zshrc" ]; then
   echo "Linking .zshrc..."
-  ln -sf $HOME/.dotfiles/.zshrc $HOME/.zshrr
+  ln -sf $HOME/.dotfiles/.zshrc $HOME/.zshrc
 fi
 
 # Set zsh as the default shell
