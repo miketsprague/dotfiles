@@ -3,7 +3,7 @@
 # Clone the dotfiles repository
 if [ ! -d "$HOME/.dotfiles" ]; then
   echo "Cloning dotfiles repository..."
-  git clone https://github.com/idrissrio/dotfiles.git $HOME/.dotfiles
+  git clone https://github.com/miketsprague/dotfiles.git $HOME/.dotfiles
 fi
 
 # Install tools and plugins
