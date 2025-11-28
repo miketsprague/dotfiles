@@ -1,7 +1,7 @@
 # .zshrc configuration for GitHub Codespaces
 
 # Set PATH
-export PATH="$PATH:/workspaces/semmle-code/target/intree/codeql-cpp"
+export PATH="$PATH:/workspaces/semmle-code/target/intree/codeql"
 
 # Aliases
 alias ll='ls -la'
